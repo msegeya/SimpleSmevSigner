@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ResourceDictionary.MergedDictionaries>        
+        <ResourceDictionary Source="Styles/PanelButtons.xaml"></ResourceDictionary>
+        <!--ResourceDictionary Source="Styles/WindowStyle.xaml">NOT IMPLEMENTED</-->
+    </ResourceDictionary.MergedDictionaries>
+
+    <SolidColorBrush x:Key="BaseTextColor" Color="#A5A5A5"/>
+    <SolidColorBrush x:Key="HighLightTextColor" Color="#FAFAFA"/>
+    <SolidColorBrush x:Key="ClickedTextColor" Color="{DynamicResource {x:Static SystemColors.HighlightColorKey}}"/>
+    <SolidColorBrush x:Key="BaseBorderBrush" Color="#FF615D5D"/>
+	<SolidColorBrush x:Key="BaseBackground" Color="#181818"/>
+	<SolidColorBrush x:Key="BaseFrameBackground" Color="#323232"/>
+</ResourceDictionary>
